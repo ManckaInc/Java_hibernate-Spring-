@@ -1,7 +1,5 @@
 <h1>Java project with Hibernate</h1>
 
-Maven archetype.
-
 How to run project:
 
 1. Clone repo.
