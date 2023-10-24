@@ -1,4 +1,4 @@
-<h1>Java project with Hibernate and Spring</h1>
+<h1>Java project with Hibernate</h1>
 
 Maven archetype.
 
