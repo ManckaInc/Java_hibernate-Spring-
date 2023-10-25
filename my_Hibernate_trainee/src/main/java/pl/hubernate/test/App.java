@@ -16,13 +16,21 @@ public class App
             Session session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Person person1 = new Person("Test1", 21);
-            Person person2 = new Person("Test2", 22);
-            Person person3 = new Person("Test3", 23);
+            //Save
 
-            session.save(person1);
-            session.save(person2);
-            session.save(person3);
+            Person person = new Person("Rnd Name", 43);
+            session.save(person);
+
+            //Update
+
+            Person personUpdate = session.get(Person.class,18);
+            personUpdate.setName("AufWiedersehen");
+
+            //Delete
+
+            Person personDelete = session.get(Person.class, 16);
+            session.delete(personDelete);
+
 
             session.getTransaction().commit();
         }
