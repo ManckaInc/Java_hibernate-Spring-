@@ -6,7 +6,7 @@ How to run project:
 2. Get dependencies in pom.xml
 3. Add your DB(PostgreSQL or another..).
 4. Create table with all needed columns.
-5. Add hibernate.properties in your project.
+5. Add file - "hibernate.properties" in your project.
 6. Run.
 
 P.S. If u project do not running try adding another version  in pom.xml
